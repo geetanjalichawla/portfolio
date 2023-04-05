@@ -65,7 +65,7 @@ const Skills = () => {
 
       ]
     return (
-    <section className='skills relative pb-14' id='skils' >
+    <section  id='skills' className='skills relative pb-14'  >
         <div className="container">
             <div className="row">
                 <div className="col">

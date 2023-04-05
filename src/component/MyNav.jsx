@@ -6,6 +6,7 @@ import './myNav.css';
 import { AiFillLinkedin , AiOutlineGithub} from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
 
+
 const MyNav = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scolled, setScolled] = useState(false);

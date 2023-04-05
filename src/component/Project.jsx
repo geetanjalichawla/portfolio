@@ -58,7 +58,7 @@ const Project = () => {
 
 
     return (
-  <section className='project' id='project'>
+  <section className='project' id='projects'>
     <div className="conitaner px-9">
         <div className="row">
             <div className="col text-center">
