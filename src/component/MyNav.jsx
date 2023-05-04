@@ -58,7 +58,7 @@ const onUpdateActiveLink = (v)=>setActiveLink(v);
                 className=' text-lg'/>
               </a>
             </div>
-            <button className='border-2 border-white mx-4 text-white px-3 py-2 button' onClick={()=>console.log("connect")}>Let's connect</button>
+            <a className='text-white  no-underline' href={cv} download>  <button className='border-2 border-white mx-4 text-white px-3 py-2 button' onClick={()=>console.log("connect")}>Download CV</button></a>
           </span>
         </Navbar.Collapse>
       </Container>
