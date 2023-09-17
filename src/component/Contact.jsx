@@ -51,7 +51,7 @@ const Contact = () => {
 
     }
     return (
-<div className="contact bg-contact-bg  py-32" id="connnect">
+<div className="contact bg-contact-bg  py-32" id="connect">
 <div className="container">
     <div className="row items-center">
         <div className="col-md-6">

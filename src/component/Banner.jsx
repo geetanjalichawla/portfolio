@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     const toRotate =["Web Devloper ", "FullStack Devloper " ,"Student"];
@@ -57,8 +58,12 @@ const Banner = () => {
                                     {text}
                                 </span>
                             </h1>
-                            <p className='text-para '>hello my name is geetanjali chawla i am a student of BCA form indra gandhi national open university .I love to code specailly i love to do dsa i also teach dsa in part time and learning MERN start please check the project seaction for my desgin i did an internship of 3 months in react.js also but willing to learn fullstack  </p>
-                            <button className='border-2 border-white  text-white px-3 py-2 button' onClick={()=>console.log("connect")}>Let's connect</button>
+                            <p className='text-para '>
+                            Passionate and proficient MERN stack developer, well-versed in MongoDB, Express.js, React.js, and Node.js. Demonstrates mastery in JavaScript, jQuery, and Bootstrap. Adept at crafting end-to-end web solutions, excelling in front-end aesthetics, back-end functionality, and effective problem-solving. Eager to take on a dynamic role as a MERN stack developer, committed to elevating organizational achievements                                 </p>
+                            <a href="#connect">
+                            <button className='border-2 border-white  text-white px-3 py-2 button'  onClick={()=>console.log("connect")}>Let's connect</button>
+
+ </a>
                         </div>
                         <div className="col-md-6 col-sm-12 col-xl-5 mb-auto">
                         <img  className="animate-move w-11/12 " src="https://ik.imagekit.io/b80sh2n2k/header-img.svg?updatedAt=1679470984140" alt="headerImg" />

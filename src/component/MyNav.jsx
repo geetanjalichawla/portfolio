@@ -45,14 +45,14 @@ const onUpdateActiveLink = (v)=>setActiveLink(v);
           </Nav>
           <span className='navbar-text'>
             <div className="socail-icons flex gap-2 ">
-            <a className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 text-white hover:bg-white  border-white rounded-full  " href="https://www.linkedin.com/in/geetanjalichawla/">
+            <a className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 text-white hover:bg-white  border-white rounded-full  " href="https://www.linkedin.com/in/geetanjalichawla/" target='_blank'>
                 <AiFillLinkedin 
                 className=' text-lg'/>
               </a>
-              <a className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 border-white rounded-full  text-white  hover:bg-white  " href="https://github.com/geetanjalichawla">                <AiOutlineGithub
+              <a className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 border-white rounded-full  text-white  hover:bg-white  " href="https://github.com/geetanjalichawla" target='_blank'>                <AiOutlineGithub
                 className=' text-lg'/>
               </a>
-              <a className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 border-white rounded-full   text-white  hover:bg-white  " href="/">
+              <a className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 border-white rounded-full   text-white  hover:bg-white  " href="https://leetcode.com/geetanjalichawla" target='_blank'>
                 <SiLeetcode
                 className=' text-lg'/>
               </a>

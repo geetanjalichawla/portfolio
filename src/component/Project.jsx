@@ -3,54 +3,100 @@
 import React from 'react';
 import { Nav, TabContainer, TabContent, TabPane } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
-
+import UbFactory from "../assets/UbFactory/img2.png";
+import pinkAprons from "../assets/pinkaprons/Screenshot (134).png";
+import bitgert from "../assets/Bitgert/Screenshot (136).png";
+import Ruffle from "../assets/Ruffle/Ruffle.png";
+import methopia from "../assets/methopia/methopia.png";
+import daylogics from "../assets/daylogics/daylogics.png";
 const Project = () => {
     const Projects =[
-        // {
-        //     title: "Business startup",
-        //     description:"Desgin & Devlopment",
-        //     url :"https://ik.imagekit.io/b80sh2n2k/project-img3.png?updatedAt=1679470990174"
-        // },
-        // {
-        //     title: "Travel world",
-        //     description:"Desgin & Devlopment",
-        //     url :"https://ik.imagekit.io/b80sh2n2k/project-img1.png?updatedAt=1679470990174"
-        // },
+
+        {
+            title: "Raffles",
+            description:"Design & Development",
+            url : Ruffle,
+            id : 1,
+            websiteUrl : "https://ruffles-geet.vercel.app"
+
+
+        },
+        {
+            title: "it Website Daylogics",
+            description:"Design & Development",
+            url : daylogics,
+            id : 1,
+            websiteUrl : "https://daylogics.vercel.app/"
+
+
+        },
+        {
+            title: "PinkAprons costumer",
+            description:"Design & Development",
+            url :pinkAprons,
+            websiteUrl : "https://pink-aprons-costumer.vercel.app/"
+            
+
+        },
+        {
+            title: "minethopia",
+            description:"Design & Development",
+            url : methopia,
+            websiteUrl : "https://minetopia-henna.vercel.app/"  
+
+        },
+        {
+            title: "Ub factory Next",
+            description:"Design & Development",
+            url : UbFactory,
+            id : 1,
+            websiteUrl : "https://ubfactory-web.vercel.app/"
+
+
+        },
+        {
+            title: "Bitgert realEstate Blockchain",
+            description:"Design & Development",
+            url :bitgert,
+            websiteUrl : "https://realestate.bitgert.market/"
+            
+
+        },
     
         {
-            title: "gaming website ",
-            description:"Desgin & Devlopment",
+            title: "Gaming website ",
+            description:"Design & Development",
             url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__216_.png?updatedAt=1679913364463",
             websiteUrl : "https://easegaming.netlify.app/"
         },
         {
             title: "Discord clone",
-            description:"Desgin & Devlopment",
+            description:"Design & Development",
             url :"https://ik.imagekit.io/b80sh2n2k/2023-03-27.png?updatedAt=1679913577541",
             websiteUrl : "https://geetdiscord.netlify.app/"
         },
         {
             title: "explore space",
-            description:"Desgin & Devlopment",
+            description:"Design & Development",
             url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__8_.png?updatedAt=1679914133139",
             websiteUrl : "https://geetanjalichawla.github.io/explore-space/"
         },
         {
-            title: "Testimonial componetnt",
-            description:"Desgin & Devlopment",
+            title: "Testimonial component",
+            description:"Design & Development",
             url : "https://ik.imagekit.io/b80sh2n2k/Screenshot__219_.png?updatedAt=1679914168476",
             websiteUrl : "https://geet-testimonial.netlify.app/"
         },
        
         {
-            title: "Filter componet",
-            description:"Desgin & Devlopment",
+            title: "Filter component",
+            description:"Design & Development",
             url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__220_.png?updatedAt=1679914864311",
             websiteUrl : "https://geet-filter.netlify.app"
         },
         {
-            title: "Morden chair",
-            description:"Desgin & Devlopment",
+            title: "Modern chair",
+            description:"Design & Development",
             url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__221_.png?updatedAt=1679915371756",
             websiteUrl : "https://github.com/geetanjalichawla/mordern-chair/deployments/activity_log?environment=github-pages"
         },
