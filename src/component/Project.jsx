@@ -9,18 +9,19 @@ import bitgert from "../assets/Bitgert/Screenshot (136).png";
 import Ruffle from "../assets/Ruffle/Ruffle.png";
 import methopia from "../assets/methopia/methopia.png";
 import daylogics from "../assets/daylogics/daylogics.png";
+import nayamitra from "../assets/nyamitra/nayamirta.png";
 const Project = () => {
     const Projects =[
-
         {
-            title: "Raffles",
+            title: "Nyayamitra",
             description:"Design & Development",
-            url : Ruffle,
+            url : nayamitra,
             id : 1,
-            websiteUrl : "https://ruffles-geet.vercel.app"
+            websiteUrl : "https://nyayamitra.vercel.app/"
 
 
         },
+
         {
             title: "it Website Daylogics",
             description:"Design & Development",
@@ -87,7 +88,15 @@ const Project = () => {
             url : "https://ik.imagekit.io/b80sh2n2k/Screenshot__219_.png?updatedAt=1679914168476",
             websiteUrl : "https://geet-testimonial.netlify.app/"
         },
-       
+        {
+            title: "Raffles",
+            description:"Design & Development",
+            url : Ruffle,
+            id : 1,
+            websiteUrl : "https://ruffles-geet.vercel.app"
+
+
+        },
         {
             title: "Filter component",
             description:"Design & Development",
